@@ -1,29 +1,63 @@
-# henryheffernan.com
+# Mejri Ahmed Nour Allah - Portfolio
 
-This is one of two repositories created for my portfolio website <a href="https://henryheffernan.com/"><samp>henryheffernan.com</samp></a>. If you are looking for the 2D OS repository you can find it <a href="https://github.com/henryjeff/portfolio-inner-site"><samp>here</samp></a>! Thanks for taking the time to check this out. If you have any questions of comments, feel free to shoot me an email at <samp><a href="mailto:henryheffernan@gmail.com">henryheffernan@gmail.com</a></samp> or you can DM me on twitter <a href="https://twitter.com/henryheffernan"><samp>@henryheffernan</samp></a>.
+An interactive 3D portfolio website built with Three.js, React, and TypeScript.
 
-<br>
+## Credits
 
-To setup a dev environment:
+This project is based on the amazing work by **Henry Heffernan** ([henryheffernan.com](https://henryheffernan.com/)).
+
+- Original Repository: [github.com/henryjeff](https://github.com/henryjeff)
+- Original Creator: Henry Heffernan
+- Email: henryheffernan@gmail.com
+- Twitter: [@henryheffernan](https://twitter.com/henryheffernan)
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Development Setup
+
+To setup a development environment:
 
 ```bash
 # Clone the repository
+git clone <your-repo-url>
 
 # Install dependencies 
-npm i
+npm install
 
 # Run the local dev server
 npm run dev
 ```
 
-To serve a production build:
+## Production Build
+
+To build for production:
 
 ```bash
-# Install dependencies if not already done - 'npi i'
+# Install dependencies if not already done
+npm install
 
 # Build for production
 npm run build
 
 # Serve the build using express
 npm start
+```
+
+## Deploy to Vercel
+
+### Vercel Build Settings:
+
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
+- **Install Command:** `npm install`
+
+You can also deploy by clicking the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=<your-repo-url>)
+
+Or manually through the Vercel CLI:
+
+```bash
+npm install -g vercel
+vercel
 ```
